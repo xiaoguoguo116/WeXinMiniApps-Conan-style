@@ -1,0 +1,43 @@
+
+.imgStyle{
+  display:flex;
+ height: 100%;
+ justify-content: center;
+ align-items:center;
+}
+text{
+  
+  padding:15rpx;
+  display:block;
+  font-size:30pt;
+  color:white;
+  font-style: unset;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+page {
+  overflow:hidden;
+   position:fixed;
+  background-image: url('https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1665581598,3874319737&fm=26&gp=0.jpg');
+  margin:Opx;
+ background-size:100% 109%;
+  }
+.up{
+  
+  z-index: 1;
+}
+.style1{
+ margin-left: 30rpx;
+ z-index: 1;
+}
+.style2{
+  bottom: 20rpx;
+  position:fixed;
+}
+.style3{
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 40rpx;
+  display: flex;
+}

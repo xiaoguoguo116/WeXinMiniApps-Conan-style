@@ -1,0 +1,11 @@
+<!--pages/foodjieshao/foodjieshao.wxml-->
+<view class='container'>
+  <view class='title'>{{article.title}}</view>
+  <view class='style1'>
+    <image src='{{article.poster}}' mode='widthFix'></image>
+  </view>
+  <view class='content'>{{article.content}}</view>
+  <view class='add_date'>数量：{{article.add_date}}</view>
+</view>
+
+

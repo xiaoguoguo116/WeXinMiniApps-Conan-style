@@ -1,0 +1,12 @@
+/* pages/my/my.wxss */
+/**app.wxss**/
+@import "weui.wxss";
+.style1{
+ margin-top: 30rpx;
+}
+.butt{
+  margin-top: 60rpx;
+}
+.style2{
+  margin-top: 80rpx;
+}

@@ -1,0 +1,22 @@
+<!--pages/guanLogin/guanLogin.wxml-->
+
+<text class="style1">{{welcome}}</text>
+<view class="all">
+  <image class="img1" src="../../images/yonghu.png"></image> 
+  <text class='yonghuming'>工号 :</text>  
+  <input  class='style5' bindinput="id" placeholder="请输入用户名" ></input>
+</view>
+<view class="style4">
+  <image class="img1" src="../../images/yonghu.png"></image> 
+  <text class='yonghuming'>用户名 :</text>  
+  <input  class='style5' bindinput="name" placeholder="请输入用户名" ></input>
+</view>
+<view class="style4">
+  <image class="img1" src="../../images/lock.png"></image> 
+  <text class='yonghuming'>  密  码 :</text>  
+  <input  class='style5' bindinput="password" placeholder="请输入密码" ></input>
+</view>
+<view class="style2">
+<button class='buttonStyle' bindtap="login">登录</button>
+<button class='buttonStyle' bindtap="zhuce1">注册</button>
+</view>

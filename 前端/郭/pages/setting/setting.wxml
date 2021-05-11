@@ -1,0 +1,19 @@
+<!--pages/setting/setting.wxml-->
+<!--pages/login/login.wxml-->
+<view class='upto'>
+<view class="style4">
+<picker class='style5' bindchange="bindPickerChange" value="{{num1}}" range="{{identify}}">
+身份选择：{{identify[num1]}}
+</picker>
+</view>
+</view>
+<view class="style4">
+<picker class='style5' bindchange="bindPickerChange1" value="{{num2}}" range="{{position}}">
+位置选择：{{position[num2]}}
+</picker>
+</view>
+<view class="style2">
+<button class='butt' bindtap="gotoindex">进入点餐</button>
+</view>
+
+

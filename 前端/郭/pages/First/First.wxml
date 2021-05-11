@@ -1,0 +1,14 @@
+<!--pages/First/First.wxml-->
+<text>欢迎使用
+  寝室点餐小程序         
+</text>
+<view class='style2'> 
+<view class='style3'>
+  <button class='style1' bindtap='gotowechatLogin'>微信账号登录</button>
+  <button  class='style1' bindtap='gotoLogin'>账号密码登录</button>
+</view>
+</view>
+
+
+
+

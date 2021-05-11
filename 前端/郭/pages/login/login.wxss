@@ -1,0 +1,84 @@
+.style1{
+  font-size: 80rpx;
+  font-weight: bold;
+  display: flex;
+  margin-left: 25%;
+  margin-top: 70rpx;
+  flex-direction: column;
+}
+.buttonStyle{  
+   margin: 10rpx;
+   width: 25%;
+   margin-left: 15%;
+   background-color:white;
+   color:black;
+}
+.style2{
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 40rpx;
+  display: flex;
+}
+.style3{
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 50rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+page {
+  overflow:hidden;
+   position:fixed;
+  background-image: url('https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3717013678,2963681053&fm=15&gp=0.jpg');
+  margin:Opx;
+ background-size:100% 109%;
+  }
+  .style4{
+    line-height: 45px; 
+    border-radius:20px;
+     border:1px solid #999999; 
+     margin-top: 40rpx;
+  }
+  .style5{
+    flex: block; 
+    float: right; 
+    text-align: right; 
+    margin-right: 22px; 
+    margin-top: 11px;
+  }
+  .yonghuming{
+    margin-left: 20rpx;
+  }
+  .img1{
+    margin-left: 20rpx;
+    width: 50rpx;
+    height:50rpx;
+  }
+  .all{
+    line-height: 45px; 
+    border-radius:20px;
+     border:1px solid #999999; 
+    margin-top: 130rpx;
+  }
+  .forget{
+     margin-top: 20rpx;
+     width: 160rpx;
+     font-size:20rpx;
+     margin-left: 540rpx;
+     border: 1px solid #70bcf6; 
+     border-radius: 2px;  
+     background-color: white;
+     
+  }
+.guan{
+ z-index: 1;
+ bottom: 0rpx;
+ position:fixed;
+ flex-direction: row;
+ flex-wrap: wrap;
+
+ margin-top: 40rpx;
+ display: flex;
+ width:100%;
+}

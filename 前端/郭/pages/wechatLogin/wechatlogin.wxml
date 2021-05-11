@@ -1,0 +1,11 @@
+<!--pages/wechatLogin/wechatlogin.wxml-->
+<view class='container'>
+  <image src='{{src}}' mode='widthFix'></image>
+  <text>{{name}}</text>
+  
+</view>
+<view  >
+<button open-type='getUserInfo' bindgetuserinfo='getMyInfo' class='style1'>获取账号信息</button>
+  <button class='style1' bindtap='gotoindex'>进入点餐</button>
+  <button bindtap='gotosetting'>位置设置</button>
+</view>

@@ -1,0 +1,6 @@
+{
+  "navigationBarBackgroundColor": "#ffc0cb",
+"navigationBarTextStyle": "black",
+"navigationBarTitleText": "管理员界面",
+"enablePullDownRefresh": false
+}

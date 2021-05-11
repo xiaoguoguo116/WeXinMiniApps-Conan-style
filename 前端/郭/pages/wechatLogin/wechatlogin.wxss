@@ -1,0 +1,26 @@
+/* pages/wechatLogin/wechatlogin.wxss */
+.container{
+  height:70vh;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content: space-around;
+}
+image{
+  width:300rpx;
+  border-radius:50%;
+}
+text{
+  font-size:50rpx;
+}
+.style1{
+  margin-bottom: 10rpx;
+}
+page{
+  overflow:hidden;
+  position:fixed;
+ background-image: url('https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3767820632,3649726380&fm=26&gp=0.jpg');
+ margin:Opx;
+background-size:100% 109%;
+
+}

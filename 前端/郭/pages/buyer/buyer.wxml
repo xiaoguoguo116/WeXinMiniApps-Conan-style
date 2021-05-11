@@ -1,0 +1,22 @@
+<!--pages/buyer/buyer.wxml-->
+<text>我的余额</text>
+<button class='forget'>￥{{money}}</button>
+<view class='style2'>
+<view class="weui-panel">
+  <view bindtap='gotoSetting' class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <view class="weui-cell__bd weui-cell_primary margin-left-icon">
+      <view class='text-size-09 init-wordspace' bindtap='chong'>一键充值</view>
+    </view>
+    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+  </view>
+</view>
+</view>
+<modal hidden="{{hiddenmodalput}}" 
+   			confirm-text="付款" cancel-text="取消" bindcancel="chong" 
+   			bindconfirm="confirm">
+         <view class="style4">
+  <image class="img1" src="../../images/lock.png"></image> 
+  <input  class='style5' bindinput="num" placeholder="请输入金额" ></input>
+</view>
+ </modal>
+

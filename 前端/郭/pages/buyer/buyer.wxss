@@ -1,0 +1,60 @@
+/* pages/buyer/buyer.wxss */
+@import "weui.wxss";
+.forget{
+  margin-top: 80rpx;
+  width:300rpx;
+  font-size:40rpx;
+  border: 4px solid #70bcf6; 
+  border-radius: 2px;  
+  background-color: white;
+  
+}
+.style1{
+  margin-top: 80rpx;
+  width:500rpx;
+  font-size:40rpx;
+  border: 4px solid #70bcf6; 
+  border-radius: 2px;  
+  background-color: white;
+  margin-left:130rpx;
+}
+.style2{
+  margin-top: 80rpx;
+  
+}
+.style4{
+  line-height: 45px; 
+  border-radius:20px;
+   border:1px solid #999999; 
+   margin-top: 40rpx;
+}
+.style5{
+  flex: block; 
+  float: right; 
+  text-align: right; 
+  margin-right: 22px; 
+  margin-top: 11px;
+}
+.img1{
+  margin-left: 20rpx;
+  width: 50rpx;
+  height:50rpx;
+}
+text{
+  margin:15rpx;
+  padding:15rpx;
+  display:block;
+  font-size:20pt;
+  color:black;
+  font-style: unset;
+}
+page {
+  overflow:hidden;
+   position:fixed;
+  background-image: url('https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3717013678,2963681053&fm=15&gp=0.jpg');
+  margin:Opx;
+ background-size:100% 109%;
+  }
+  .yonghuming{
+    font-size: 20rpx;
+  }
